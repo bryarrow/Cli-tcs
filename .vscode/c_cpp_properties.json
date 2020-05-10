@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}"
+            ],
+            "defines": [],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:\\bry-files\\MinGW\\include",
+                "D:\\bry-files\\mingw\\bin\\../lib/gcc/mingw32/8.2.0/include/c++",
+                "d:\\bry-files\\mingw\\bin\\../lib/gcc/mingw32/8.2.0/include/c++/mingw32",
+                "d:\\bry-files\\mingw\\bin\\../lib/gcc/mingw32/8.2.0/include/c++/backward",
+                "d:\\bry-files\\mingw\\bin\\../lib/gcc/mingw32/8.2.0/include",
+                "d:\\bry-files\\mingw\\bin\\../lib/gcc/mingw32/8.2.0/../../../../include",
+                "d:\\bry-files\\mingw\\bin\\../lib/gcc/mingw32/8.2.0/include-fixed"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "D:\\bry-files\\MinGW\\bin\\g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "compilerArgs": [],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            }
+        }

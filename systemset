@@ -1,0 +1,10 @@
+#pragma once
+
+#define LIN
+
+#ifdef WIN
+#define SYS 0
+#endif
+#ifdef LIN
+#define SYS 1
+#endif
